@@ -2,7 +2,7 @@
 echart图表实现小demo
 
 目录结构
-
+```
 |- echart-webpack
     |- dist/     打包文件
     |- node_modules   
@@ -29,5 +29,5 @@ echart图表实现小demo
     package.json
     webpack.dev.config.js
     webpack.prod.config.js
-            
+    ```
 主页面实现了计数器demo，page1页面实现echar图表demo
