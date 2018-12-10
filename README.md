@@ -4,8 +4,8 @@ echart图表实现小demo
 目录结构
 
 |- echart-webpack
-    |- dist/     打包文件
-    |- node_modules   
+    >|- dist/     打包文件
+    >|- node_modules   
     |-src 
         |- components  额外组件
         |- pages   页面
