@@ -38,6 +38,6 @@ git clone  <br>
 **安装模块**
 npm install <br>
 **打包发布** 
-npm run bluid <br>
+npm run build <br>
 **开发环境运行** 
 npm run dev
