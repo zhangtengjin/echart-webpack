@@ -1,7 +1,7 @@
 # echart-webpack
 echart图表实现小demo
 
-##目录结构
+### 目录结构
 ```
 |- echart-webpack
     |- dist/     打包文件
@@ -32,12 +32,12 @@ echart图表实现小demo
 ```
 主页面实现了计数器demo，page1页面实现echar图表demo
 
-##安装教程
-##克隆项目 
-git clone  \<br>
-##安装模块 
-npm install  \<br>
-##打包发布 
-npm run bluid
-##开发环境运行 
+### 安装教程
+**克隆项目**
+git clone  <br>
+**安装模块**
+npm install <br>
+**打包发布** 
+npm run bluid <br>
+**开发环境运行** 
 npm run dev
