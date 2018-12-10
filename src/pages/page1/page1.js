@@ -2,7 +2,7 @@
 * @Author: zhang
 * @Date:   2018-12-08 14:30:14
 * @Last Modified by:   zhang
-* @Last Modified time: 2018-12-08 17:15:55
+* @Last Modified time: 2018-12-09 13:19:08
 */
 
 import React, {Component} from 'react';
@@ -51,7 +51,7 @@ export default class Page1 extends Component {
                   }
               }
           },
-            xAxis : [
+          xAxis : [
               {
                   type : 'category',
                   data : this.state.data.xdata
@@ -62,41 +62,41 @@ export default class Page1 extends Component {
                   type : 'value'
               }
           ],
-            series : [
-              {
-                  name:'蒸发量',
-                  type:'bar',
-                  data: this.state.data.ydata.ydata1,
-                  markPoint : {
-                      data : [
-                          {type : 'max', name: '最大值'},
-                          {type : 'min', name: '最小值'}
-                      ]
-                  },
-                  markLine : {
-                      data : [
-                          {type : 'average', name: '平均值'}
-                      ]
-                  }
-              },
-              {
-                  name:'降水量',
-                  type:'bar',
-                  data: this.state.data.ydata.ydata2,
-                  markPoint : {
-                      data : [
+          series : [
+            {
+                name:'蒸发量',
+                type:'bar',
+                data: this.state.data.ydata.ydata1,
+                markPoint : {
+                    data : [
                         {type : 'max', name: '最大值'},
                         {type : 'min', name: '最小值'}
-                      ]
-                  },
-                  markLine : {
-                      data : [
-                          {type : 'average', name : '平均值'}
-                      ]
-                  }
-              },
-          ]
-        });
+                    ]
+                },
+                markLine : {
+                    data : [
+                        {type : 'average', name: '平均值'}
+                    ]
+                }
+            },
+            {
+                name:'降水量',
+                type:'bar',
+                data: this.state.data.ydata.ydata2,
+                markPoint : {
+                    data : [
+                      {type : 'max', name: '最大值'},
+                      {type : 'min', name: '最小值'}
+                    ]
+                },
+                markLine : {
+                    data : [
+                        {type : 'average', name : '平均值'}
+                    ]
+                }
+            },
+        ]
+      });
     }
 
     render() {
