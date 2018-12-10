@@ -31,3 +31,9 @@ echart图表实现小demo
     webpack.prod.config.js
 ```
 主页面实现了计数器demo，page1页面实现echar图表demo
+
+安装教程
+克隆项目git clone 
+安装模块npm install
+打包发布 npm run bluid
+开发环境运行npm run dev
